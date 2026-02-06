@@ -5,7 +5,7 @@
   
 ![Banner Pokémon](https://images.unsplash.com/photo-1542779283-429940ce8336?auto=format&fit=crop&w=1200&h=400&q=80)
 
-[![GitHub](https://img.shields.io/badge/GitHub-JaredSánchez-blue?style=for-the-badge&logo=github)](https://github.com/JaredSanchez)
+[![GitHub](https://img.shields.io/badge/GitHub-JaredSánchez-blue?style=for-the-badge&logo=github)](https://github.com/Calambres199)
 [![Tipo Principal](https://img.shields.io/badge/Tipo-Fantasma-8B5A9D?style=for-the-badge&logo=pokemon)](https://pokemon.fandom.com/es/wiki/Tipo_fantasma)
 [![Estado](https://img.shields.io/badge/Entrenador-Activo-success?style=for-the-badge)]()
 
@@ -19,7 +19,7 @@
 | **Edad** | 21 años |
 | **Apariencia** | Moreno, estatura media |
 | **Profesión** | Matemático |
-| **Región** | Kanto Personalizada |
+| **Región** | Tepa |
 | **Medallas** | 8/8 ✅ |
 | **Pokémon Capturados** | 152 |
 | **Porcentaje Victorias** | 84.7% |
@@ -60,3 +60,7 @@ Como matemático, aplico principios estadísticos y probabilísticos a cada bata
 4. **Destructor** - Alto riesgo/recompensa
 
 ### 🎭 **MIMIKYU** - El Engaño Perfecto
+
+**Descripción:** Mi arma secreta. Su habilidad "Disfraz" permite un golpe seguro cada batalla, ideal para establecer estrategias desde el turno 1.
+
+**Análisis Matemático:**
