@@ -1,5 +1,5 @@
 # 👻 **Pokédex de Jared Sánchez**  
-*"El Matemático Fantasma" - 21 años*
+*"El Matemático Fantasma" - 22 años*
 
 <div align="center">
   
