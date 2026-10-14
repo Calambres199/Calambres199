@@ -1,5 +1,5 @@
 # 👻 **Pokédex de Jared Sánchez**  
-*"El Matemático Fantasma" - 22 años*
+*"El Matemático Fantasma" - 23 años*
 
 <div align="center">
   
@@ -16,7 +16,7 @@
 | Característica | Valor |
 |----------------|--------|
 | **Nombre** | Jared Sánchez |
-| **Edad** | 21 años |
+| **Edad** | 23 años |
 | **Apariencia** | Moreno, estatura media |
 | **Profesión** | Matemático |
 | **Región** | Tepa |
