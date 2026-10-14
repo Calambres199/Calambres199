@@ -58,19 +58,31 @@ Como matemático, aplico estadística y probabilidad a cada batalla:
 |---|---|---|
 | **Series de tiempo** | Estadística | Pruebas ADF, KPSS y Phillips-Perron, modelos ARIMA y SARIMA |
 | **Regresión lineal múltiple** | Estadística | Selección de variables con AIC y validación cruzada |
-| **Análisis de imágenes satelitales** | Datos | Índices como EVI, MSI y NDSVI, y extracción de datos de archivos .tif |
+| **Análisis de datos** | Estadística | Limpieza, visualización y modelos con datos reales |
 | **Aplicaciones web** | Programación | Apps interactivas con Shiny publicadas en GitHub Pages |
 | **Backtracking** | Algoritmos | Búsqueda con retroceso para resolver problemas |
 
 ---
 
+## 🏛️ Liga UAEH · Gimnasios de Matemáticas Aplicadas
+Entrenador formado en el **Instituto de Ciencias Básicas e Ingeniería (ICBI)** de la **Universidad Autónoma del Estado de Hidalgo**. ¡Arriba las Garzas! 🦩
+
+Mis 8 medallas, una por cada gimnasio vencido:
+
+| Medalla | Gimnasio | Movimiento que me enseñó |
+|---|---|---|
+| 📐 Medalla Límite | Cálculo diferencial e integral | Derivar e integrar sin miedo |
+| 🧊 Medalla Matriz | Álgebra lineal | Eigenvalores y espacios vectoriales |
+| 🌀 Medalla Caos | Ecuaciones diferenciales | Modelar cómo cambian las cosas |
+| 🎲 Medalla Azar | Probabilidad | Calcular la suerte antes de tirar los dados |
+| 📊 Medalla Muestra | Estadística | Inferir del todo a partir de una parte |
+| 💻 Medalla Iteración | Análisis numérico | Aproximar lo que no se puede resolver a mano |
+| ⏳ Medalla Tiempo | Series de tiempo | Ver el patrón que se repite cada año |
+| 📈 Medalla Regresión | Modelos lineales | Predecir con el menor error posible |
+
+---
+
 ## 🏆 Misiones completadas (proyectos)
-
-### 🌾 Reto AgroCebada 2026 · FIRA
-Predicción del rendimiento de cebada de temporal en 197 parcelas de Hidalgo, Tlaxcala y Puebla con índices satelitales, clima y topografía. Incluye análisis de series de tiempo, regresión lineal múltiple y una aplicación web.
-
-[![App](https://img.shields.io/badge/Ver_app-AgroCebada-6E1428?style=flat-square)](https://calambres199.github.io/agrocebada/)
-[![Repo](https://img.shields.io/badge/Repositorio-agrocebada-181717?style=flat-square&logo=github)](https://github.com/Calambres199/agrocebada)
 
 ### 🔢 Resolvedor de Sudoku
 Paquete en Python que resuelve sudokus 9×9 con backtracking, revisa si el tablero es válido y si la solución es única. Con pruebas en pytest.
