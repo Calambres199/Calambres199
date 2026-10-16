@@ -5,7 +5,7 @@
 **Estudiante de la Licenciatura en Matemáticas Aplicadas · Línea de Ciencias Computacionales**
 Universidad Autónoma del Estado de Hidalgo · Instituto de Ciencias Básicas e Ingeniería
 
-*Tepa, Hidalgo, México*
+*Tepatepec, Hidalgo, México*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Calambres199-181717?style=flat-square&logo=github)](https://github.com/Calambres199)
 [![UAEH](https://img.shields.io/badge/UAEH-ICBI-6E1428?style=flat-square)](https://www.uaeh.edu.mx/campus/icbi/oferta/licenciaturas/lic_mat/nosotros.html)
