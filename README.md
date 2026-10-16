@@ -97,31 +97,39 @@ configuraciones. En la práctica es mucho menor, porque cada vez que una asignac
 
 ---
 
-## Algunas ideas que uso seguido
+## Topología: la taza y la dona
 
-**Modelo SARIMA** $(p,d,q)(P,D,Q)_{s}$, para series con estacionalidad de periodo $s$:
+Para un topólogo, **una taza de café y una dona son el mismo objeto**.
 
-$$
-\phi_p(B)\,\Phi_P(B^{s})\,(1-B)^{d}(1-B^{s})^{D}\,Y_t = \theta_q(B)\,\Theta_Q(B^{s})\,\varepsilon_t
-$$
+<div align="center">
 
-**Estimador de mínimos cuadrados** en regresión lineal múltiple:
+![Taza transformándose en dona](https://upload.wikimedia.org/wikipedia/commons/2/26/Mug_and_Torus_morph.gif)
 
-$$
-\hat{\boldsymbol\beta} = (\mathbf{X}^\top \mathbf{X})^{-1}\mathbf{X}^\top \mathbf{y}
-$$
+<sub>Deformación continua de una taza en un toro. Imagen: Wikimedia Commons.</sub>
 
-**Criterio de información de Akaike**, para comparar modelos penalizando su complejidad:
+</div>
+
+La topología no se fija en distancias ni ángulos, sino en las propiedades que se conservan al **estirar, doblar o aplastar** un objeto, sin romperlo ni pegar partes. Dos espacios son equivalentes si existe un **homeomorfismo** entre ellos: una función
 
 $$
-\mathrm{AIC} = 2k - 2\ln \hat{L}
+f : X \to Y \quad \text{biyectiva, continua y con inversa } f^{-1} \text{ continua.}
 $$
 
-**Error de predicción** en validación cruzada:
+La taza se puede deformar poco a poco hasta convertirse en un **toro** (la dona): el asa se vuelve el agujero y el resto de la taza se encoge alrededor. Lo único que no cambia es que **ambas tienen exactamente un agujero**.
+
+Ese número de agujeros, el **género** $g$, es un invariante topológico, y se relaciona con la **característica de Euler**:
 
 $$
-\mathrm{RMSE} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i - \hat{y}_i\right)^2}
+\chi = V - E + F = 2 - 2g
 $$
+
+| Superficie | Género $g$ | $\chi$ |
+|---|---|---|
+| Esfera (pelota) | 0 | 2 |
+| Toro (dona, taza) | 1 | 0 |
+| Doble toro (dona de dos agujeros) | 2 | −2 |
+
+Por eso una pelota **no** se puede convertir en dona: tienen distinta característica de Euler, así que no existe ningún homeomorfismo entre ellas.
 
 ---
 
