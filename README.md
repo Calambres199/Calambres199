@@ -2,7 +2,7 @@
 
 # Jared Sánchez Martínez
 
-**Estudiante de la Licenciatura en Matemáticas Aplicadas**
+**Estudiante de la Licenciatura en Matemáticas Aplicadas · Línea de Ciencias Computacionales**
 Universidad Autónoma del Estado de Hidalgo · Instituto de Ciencias Básicas e Ingeniería
 
 *Tepa, Hidalgo, México*
@@ -16,7 +16,7 @@ Universidad Autónoma del Estado de Hidalgo · Instituto de Ciencias Básicas e 
 
 ## Sobre mí
 
-Estudio Matemáticas Aplicadas en el **Área Académica de Matemáticas y Física** del ICBI, UAEH. Me interesa usar la matemática para resolver problemas reales: modelar datos que cambian en el tiempo, construir modelos predictivos y diseñar algoritmos que resuelvan problemas de forma exacta y eficiente.
+Estudio Matemáticas Aplicadas en el **Área Académica de Matemáticas y Física** del ICBI, UAEH, con énfasis en la **línea de Computación**. Me interesa la parte computacional de la matemática: diseñar algoritmos que resuelvan problemas de forma exacta y eficiente, analizar su complejidad e implementar métodos numéricos y estadísticos que trabajen con datos reales.
 
 > *"Un buen modelo no es el que nunca se equivoca, sino el que se equivoca lo menos posible y sabe cuánto se equivoca."*
 
@@ -30,24 +30,33 @@ El programa forma matemáticos con bases sólidas en matemáticas puras y aplica
 
 | Línea | Ejemplos de aplicación |
 |---|---|
-| **Computación** | Algoritmos, sistemas inteligentes y software |
-| **Economía y finanzas** | Riesgo financiero, seguros y estudios de mercado |
-| **Biología** | Modelos demográficos y epidemiológicos |
-| **Física** | Modelación de fenómenos físicos |
+| ⭐ **Computación** *(mi línea)* | Algoritmos, sistemas inteligentes y software |
+| Economía y finanzas | Riesgo financiero, seguros y estudios de mercado |
+| Biología | Modelos demográficos y epidemiológicos |
+| Física | Modelación de fenómenos físicos |
 
-**Áreas de estudio:** Álgebra · Cálculo · Álgebra lineal · Ecuaciones diferenciales · Probabilidad · Estadística · Análisis numérico · Modelación matemática
+**Áreas de estudio:** Álgebra · Cálculo · Álgebra lineal · Ecuaciones diferenciales · Probabilidad · Estadística · Análisis numérico · Programación · Algoritmos
 
 ---
 
 ## Áreas de interés
 
+### Ciencias computacionales (principal)
+
 | Área | Herramientas |
 |---|---|
-| **Series de tiempo** | Pruebas de raíz unitaria (ADF, KPSS, Phillips-Perron), modelos ARIMA y SARIMA, diagnóstico de residuos con Ljung-Box |
+| **Algoritmos** | Backtracking, búsqueda con retroceso y recursión |
+| **Complejidad computacional** | Análisis del costo de un algoritmo en tiempo y en memoria |
+| **Métodos numéricos** | Aproximación de soluciones que no se pueden obtener de forma exacta |
+| **Programación** | Python y R; paquetes, pruebas unitarias y control de versiones con Git |
+| **Aplicaciones web** | Aplicaciones interactivas con Shiny publicadas en GitHub Pages |
+
+### Estadística computacional
+
+| Área | Herramientas |
+|---|---|
+| **Series de tiempo** | Pruebas de raíz unitaria (ADF, KPSS, Phillips-Perron), modelos ARIMA y SARIMA, diagnóstico con Ljung-Box |
 | **Modelos lineales** | Regresión lineal múltiple, selección de variables por AIC, validación cruzada |
-| **Probabilidad y estadística** | Inferencia, correlación, análisis exploratorio de datos |
-| **Algoritmos** | Backtracking y búsqueda con retroceso |
-| **Visualización y aplicaciones** | Gráficas en R y aplicaciones web interactivas con Shiny |
 
 ---
 
@@ -75,6 +84,14 @@ Un tablero es válido si cada fila, columna y subcuadrícula de $3 \times 3$ con
 $$
 \forall\, d \in \{1,\dots,9\}: \quad \big|\{\,j : a_{ij} = d\,\}\big| \le 1, \qquad \big|\{\,i : a_{ij} = d\,\}\big| \le 1, \qquad \big|\{\,(i,j) \in B_k : a_{ij} = d\,\}\big| \le 1
 $$
+
+**Complejidad.** Si el tablero tiene $m$ celdas vacías, en el peor caso el backtracking explora hasta
+
+$$
+T(m) = O\!\left(9^{m}\right)
+$$
+
+configuraciones. En la práctica es mucho menor, porque cada vez que una asignación rompe una regla se **poda** esa rama y no se exploran sus continuaciones. Para saber si la solución es **única**, el algoritmo no se detiene en la primera solución y sigue buscando una segunda.
 
 [![Repo](https://img.shields.io/badge/Repositorio-Sudoku-181717?style=flat-square&logo=github)](https://github.com/Calambres199/Sudoku)
 
